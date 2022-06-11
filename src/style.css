@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  width: 550px;
+  height: 868px;
+  background: #23252c;
+  margin: 53px auto;
+  padding-top: 44px;
+}
+
+/* Info component */
+.info-container {
+  width: 317px;
+  text-align: center;
+  background: #1a1b21;
+  margin: 0 auto;
+  padding-bottom: 33px;
+}
+.photo {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 21px;
+}
+
+.position {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #f3bf99;
+  margin-top: 6px;
+}
+
+.website {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #f5f5f5;
+  margin-top: 9px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 247px;
+  margin: 15px auto;
+}
+.email,
+.linkedIn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+}
+
+.email {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+
+  color: #374151;
+}
+
+.email-icon {
+  color: #1e1f26;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.linkedIn {
+  background: #5093e2;
+  color: #ffffff;
+}
+
+.linkedIn-icon {
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 9px;
+}
+
+/* About & Interests component */
+.intro-container {
+  width: 317px;
+  margin: 0 auto;
+  padding: 0 36px 15px 36px;
+  background: #1a1b21;
+}
+
+.intro-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+  margin-top: 5px;
+}
+
+/* Footer component */
+.footer-container {
+  width: 317px;
+  height: 64px;
+  text-align: center;
+  background: #1a1b21;
+  margin: 0 auto;
+  padding: 19px 0;
+}
+
+.footer-icon {
+  font-size: 25px;
+  color: #918e9b;
+  margin-right: 24px;
+}
